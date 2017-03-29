@@ -1,0 +1,24 @@
+<div class="container-fluid">
+
+
+
+<% @pizzas.each do |pizza| %>
+<div class="orders_text">
+  <div class="border">
+
+
+
+
+<p>
+  Name    - <%= pizza.pretty_name() %>
+</p>
+<p>
+   Order    - <%= pizza.quantity %> x <%= pizza.topping() %>
+</p>
+<p>
+  <a href='/pizzas/<%= pizza.id%>'>show order</a>
+</p>
+</div>
+</div>
+<% end %>
+</div>

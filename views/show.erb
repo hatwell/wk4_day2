@@ -1,0 +1,13 @@
+<p>
+    Name: <%=@pizza.pretty_name() %>
+</p>
+<p>
+    Order: <%=@pizza.quantity() %> x <%=@pizza.topping() %>
+</p>
+
+<p>
+    <form method="post" action="/pizzas/<%=@pizza.id%>/delete">
+        <label for="quantity">Delete Your Pizza? </label>
+      <input type="submit" value="Delete" />
+    </form>
+</p>

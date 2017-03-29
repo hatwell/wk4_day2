@@ -1,0 +1,29 @@
+* {
+    font-family: 'Cabin', sans-serif;
+
+}
+
+body {
+  display: inline;
+  background-image: url("img/pizza_spin.gif");
+}
+
+.orders_text {
+  display: inline-block;
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+  font-family: 'Cabin', sans-serif;
+  box-shadow: 0 0 0.2em 0.2em black;
+
+}
+
+.border {
+  border: 1px grey dashed;
+  padding: 5px;
+}
+
+.order_card {
+  background-color:red;
+  font-family: monospace;
+}
